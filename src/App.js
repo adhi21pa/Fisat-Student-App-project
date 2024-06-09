@@ -8,19 +8,17 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+   
       <BrowserRouter>
       <Routes>
-        <Route>
           <Route path='/' element ={<AddFisat/>}/>
           <Route path='/search' element ={<Search/>}/>
           <Route path='/delete' element ={<Delete/>}/>
-          <Route path='/viewall' element ={<ViewAll/>}/>
-          </Route>
+          <Route path='/viewall' element ={<ViewAll/>}/> 
           </Routes>
           </BrowserRouter>
 
-    </div>
+   
   );
 }
 
